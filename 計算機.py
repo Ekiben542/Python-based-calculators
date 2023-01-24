@@ -1,0 +1,24 @@
+   # coding: shift-jis
+
+operation = input("‚Ç‚ê‚É‚µ‚Ü‚·‚©H (+, -, *, /): ")
+
+# Input the numbers
+num1 = float(input("Å‰‚Ì”š: "))
+num2 = float(input("‚à‚¤ˆê‚Â‚Ì”š: "))
+
+# Perform the operation
+if operation == "+":
+    result = num1 + num2
+    print(num1, "+", num2, "=", result)
+elif operation == "-":
+    result = num1 - num2
+    print(num1, "-", num2, "=", result)
+elif operation == "*":
+    result = num1 * num2
+    print(num1, "*", num2, "=", result)
+elif operation == "/":
+    result = num1 / num2
+    print(num1, "/", num2, "=", result)
+else:
+    print("•s³‚Å‚·B")
+
